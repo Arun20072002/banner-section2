@@ -1,0 +1,61 @@
+	/* font-family: 'Roboto', sans-serif; */
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Roboto', sans-serif;
+}
+.container{
+	width:80%;
+	margin:auto;
+	
+}
+#banner-section-3{
+	  background: linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.6)),url("images/hero-bg.jpg");  
+	 /* background-color:rgb(0,0,0); */
+	 height:80vh;
+	 /* padding:100px; */
+	 background-size:contain; 
+	 display:flex;
+	 background-position: top;
+	 overflow:hidden;
+	 
+	 }
+.content-1 h1{
+	font-size:50px;
+	font-weight:600px;
+}
+.content-1 span{
+	color:#3495eb;
+}
+.content-1 p{
+	color:#abb0ad;
+	font-size:20px;
+	font-weight:600;
+	padding-bottom:20px;
+}
+.content-2 a{
+   background-color:#3495eb;
+   text-decoration:none;
+    padding:10px 30px;
+   border-radius:5px;
+   color:#fff;
+   font-size:28px;
+   font-weight:600;
+   display:inline-block;
+}
+.content-2{
+	display:flex;
+	vertical-align:middle;
+	
+}
+.content-2 span{
+	padding:10px;
+}
+.circle i{
+		color:#3495eb;
+		padding:10px;
+		border:1px;
+		font-size:40px;
+		display:inline-block;
+	}
